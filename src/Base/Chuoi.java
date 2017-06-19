@@ -21,11 +21,13 @@ public class Chuoi {
 
 		}
 		result = result.trim();
+		System.out.println("Họ tên sau khi chuẩn hóa : " + result);
+		System.out.println("=============================");
+
 		// đếm số kí tự có trong chuỗi
 		String chuoi = "Nguyễn Văn Thiện 140796";
+		System.out.println("chuoi ban dau la: " + chuoi);
 		System.out.println("số kí tự có trong chuỗi là: " + chuoi.length());
-
-		System.out.println("Họ tên sau khi chuẩn hóa : " + result);
 
 		// đếm số kí tự hoa, thường , chữ số , có trong chuỗi
 		char arr[] = chuoi.toCharArray();
@@ -48,10 +50,15 @@ public class Chuoi {
 		System.out.println("co " + chuso + " chu so trong mang");
 		System.out.println("co " + chuhoa + " ki tu in hoa trong mang");
 		System.out.println("co " + chuthuong + " ki tu thuong trong mang");
+		System.out.println("=================================");
+
+		// chuan hoa ten bai hat
+		System.out.println("chuan hoa ten bai hat");
 
 		// xử lí chuỗi
 		String baihat = "d:/music/nhacvang/riengmotgoctroi.mp3";
-
+		System.out.println("chuoi can chuan hoa la: "+ baihat);
+		
 		// chỉ lấy kí tự sau dấu /
 		int vtchuoi = baihat.lastIndexOf("/");
 		String tenbaihat = baihat.substring(vtchuoi + 1);
