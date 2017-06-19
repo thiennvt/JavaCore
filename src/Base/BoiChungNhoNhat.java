@@ -2,7 +2,7 @@ package Base;
 
 import java.util.Scanner;
 
-public class BCNN {
+public class BoiChungNhoNhat {
 	public static int bcnn(int a, int b){
 		int x = a;
 		int y = b;

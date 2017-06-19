@@ -2,7 +2,7 @@ package Base;
 
 import java.util.Scanner;
 
-public class UCLN {
+public class UocChungLonNhat {
 	//tim uoc cung lon nhat dung de quy
 	public static int ucln_dequy(int x, int y) {
 		int r;

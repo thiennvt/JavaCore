@@ -2,7 +2,7 @@ package Base;
 
 import java.util.Scanner;
 
-public class TimSoNT {
+public class TimSoNguyenTo {
 	public static int soNT(int n) {
 		for (int i = 2; i <= Math.sqrt(n); i++) {
 			if (n % i == 0) {
